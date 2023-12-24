@@ -1,0 +1,19 @@
+
+@keyframes moveObject {
+  0% {
+    transform: translate(200px, -100px);
+  }
+  
+  100% {
+    transform: translate(800px, -100px);
+  }
+
+}
+.colorPicker {
+  position: absolute;
+  z-index: 1;
+  animation: moveObject 1s ease forwards;
+  background: #000;
+  border: #000 solid 3px;
+}
+
